@@ -1,0 +1,52 @@
+Begin Object Class=/Script/Engine.Material Name="Grenade"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/MilitaryWeapSilver/Weapons/Unreal4_MK2_OcclusionRoughnessMetallic.Unreal4_MK2_OcclusionRoughnessMetallic"'
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=6C11E7734F570ABEFBA4FD8F98F3995A
+      Material=Material'"Grenade"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/MilitaryWeapSilver/Weapons/Unreal4_MK2_Normal.Unreal4_MK2_Normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=BD888CE54D9685DA6C3E80925B92B669
+      Material=Material'"Grenade"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/MilitaryWeapSilver/Weapons/Unreal4_MK2_BaseColor.Unreal4_MK2_BaseColor"'
+      MaterialExpressionEditorX=-592
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=5959D415428EA1CF9BA4998B48CEB375
+      Material=Material'"Grenade"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=74DCC543461D71A61E70F99FD996EFDE
+   ReferencedTextureGuids(0)=1A3FBCA7469482A37196BDB854329552
+   ReferencedTextureGuids(1)=28F79EED4A3254F012FA6FA5253F40A1
+   ReferencedTextureGuids(2)=042AAA404BFD92312B6E5789371146F9
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Unreal4_MK2_BaseColor",TextureReference="/Game/MilitaryWeapSilver/Weapons/Unreal4_MK2_BaseColor.Unreal4_MK2_BaseColor")
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Unreal4_MK2_Normal",TextureReference="/Game/MilitaryWeapSilver/Weapons/Unreal4_MK2_Normal.Unreal4_MK2_Normal")
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Unreal4_MK2_OcclusionRoughnessMetallic",TextureReference="/Game/MilitaryWeapSilver/Weapons/Unreal4_MK2_OcclusionRoughnessMetallic.Unreal4_MK2_OcclusionRoughnessMetallic")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=F7F09D764AEC7C47C28728A1F7C04672
+End Object
